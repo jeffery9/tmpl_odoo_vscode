@@ -15,7 +15,7 @@ RUN set -x; \
     apt-get update && apt-get install -y  build-essential autoconf libtool freetds-bin freetds-dev python-dev libaio1 wget unzip
 
 RUN set -x; \   
-    pip install pypinyin pypdf cx_Oracle==7.0.0 pymssql==2.1.2 openpyxl==2.6.4 ptvsd
+    pip install ptvsd
 
 # RUN set -x;\
 #     mkdir -p /opt/oracle \
